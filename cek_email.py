@@ -34,7 +34,7 @@ def check_email():
         email_msg = message_from_bytes(data[0][1])
         
         # membuat json dari email
-        no_wa = "6285739185699"
+        no_wa = ""
         pengirim = email_msg["From"]
         prihal = email_msg["Subject"]
         tujuan = email_msg["To"]
